@@ -1,0 +1,21 @@
+
+<div class="p-5 dv">
+ 
+<div class="row p-6">
+  @for(item of data; track $index){
+    <div class ="col-3 p-4 ">
+
+        <div class="card m-auto cd1" style="height: 12cm;">
+        <img src={{item.image}} class="card-img-top pt-3" alt="..." height="200px">
+        <div class="card-body ">
+          <h5 class="card-title">{{item.title | slice: 0: 50 }}..</h5>
+          <h6>{{item.description | slice : 0 : 100 }}...</h6>
+          <p class="card-text">Rs. {{item.price}}</p>
+
+          <a routerLink="{{item.id}}" class="btn btn-warning">Buy Now</a>
+        
+        </div>
+  </div>
+</div>
+}
+</div>  

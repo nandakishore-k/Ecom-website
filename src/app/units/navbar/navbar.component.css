@@ -1,0 +1,25 @@
+.navbar{
+    background-color: #2a2a2a;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px;
+    color: white;
+}
+img{
+    border-radius: 50%;
+    height: 2cm;
+}
+.navbar-brand{
+    padding-top: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+}
+.nav-link{
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    padding-left: 20px;
+}

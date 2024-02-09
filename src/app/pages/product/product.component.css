@@ -1,0 +1,14 @@
+.cd1{
+    
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: transparent;
+    background-color: rgb(56, 56, 56);
+}
+
+.dv{
+    background-color: black;
+}
+.card-body{
+    color: white;
+}
